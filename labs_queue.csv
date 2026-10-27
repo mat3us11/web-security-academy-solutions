@@ -1,9 +1,9 @@
 ﻿script,laboratorio,url,status
-Access Control/01-unprotected-admin-functionality.py,Lab: Unprotected admin functionality,https://0a4e008f0314eb3481d5b61e0008007e.web-security-academy.net/,verificar
-Access Control/02-unprotected-admin-functionality-unpredictable-url.py,Lab: Unprotected admin functionality with unpredictable URL,https://0af4009003b268d781c95709001c001c.web-security-academy.net/,verificar
+Access Control/01-unprotected-admin-functionality.py,Lab: Unprotected admin functionality,https://0af40076041a8fa7801d671500b400b8.web-security-academy.net/,verificar
+Access Control/02-unprotected-admin-functionality-unpredictable-url.py,Lab: Unprotected admin functionality with unpredictable URL,https://0a7200f2041f727982387e1000a1004a.web-security-academy.net/,verificar
 Access Control/03-user-role-controlled-by-request-parameter.py,Lab: User role controlled by request parameter,https://0a1f00c60334d8bd8109f78700ff00a5.web-security-academy.net/,verificar
-Access Control/04-user-role-modified-in-user-profile.py,Lab: User role can be modified in user profile,,aguardando_url
-Access Control/05-user-id-controlled-by-request-parameter.py,Lab: User ID controlled by request parameter,,aguardando_url
+Access Control/04-user-role-modified-in-user-profile.py,Lab: User role can be modified in user profile,https://0af40076041a8fa7801d671500b400b8.web-security-academy.net/,verificar
+Access Control/05-user-id-controlled-by-request-parameter.py,Lab: User ID controlled by request parameter,https://0a7200f2041f727982387e1000a1004a.web-security-academy.net/,verificar
 Access Control/06-user-id-controlled-unpredictable-user-ids.py,"Lab: User ID controlled by request parameter, with unpredictable user IDs",,aguardando_url
 Access Control/07-user-id-controlled-data-leakage-in-redirect.py,Lab: User ID controlled by request parameter with data leakage in redirect,,aguardando_url
 Access Control/08-user-id-controlled-password-disclosure.py,Lab: User ID controlled by request parameter with password disclosure,,aguardando_url

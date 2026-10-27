@@ -1,81 +1,117 @@
-# PortSwigger Web Security Academy — Complete Solutions
+🛡️ Web Security Academy Solutions - Executor Automático
 
-> Full **writeups** *and* runnable **solution scripts** for the PortSwigger Web Security Academy labs — every lab solved, explained, and automated.
->
-> By **Michael Dahan** — ranked **#38 in the world** on the [PortSwigger Hall of Fame](https://portswigger.net/web-security/hall-of-fame) — CEO & Founder of **[Sec-Llama](https://sec-llama.com)** (offensive security firm) and **[KipuCon](https://kipucon.org)** (cybersecurity conference).
+Este repositório contém scripts de automação para a resolução dos laboratórios da PortSwigger Web Security Academy.
 
-**270 writeups · 269 scripts · 32 vulnerability categories.**
+O sistema conta com um gerador de fila (generate_labs_csv.py) e um executor centralizado (run_all.py) para gerenciar as instâncias ativas e executar as soluções sequencialmente.
 
----
+⚙️ 1. Requisitos e Instalação
 
-## What's inside
+Siga o passo a passo abaixo para configurar o ambiente virtual (.venv) e instalar todas as dependências necessárias no Windows (PowerShell/VS Code).
 
-Every lab has two files in its category folder:
+Passo 1: Abrir a Pasta do Repositório
 
-- **`NN-slug.md`** — a full writeup: the target, the investigation, the working exploit, a comparison to PortSwigger's own official solution, and what the lab actually teaches about the vulnerability class.
-- **`NN-slug.py`** — a real, runnable script that solves the lab against *your own* instance. No hardcoded per-instance values — everything is discovered at runtime, the same way the original solve did.
+Abra a pasta do projeto no VS Code ou navegue até ela pelo terminal:
 
-These aren't simplified teaching toys — they're the actual technique from each writeup, packaged so you can point them at your own lab and watch them solve.
+cd C:\Caminho\Para\web-security-academy-solutions
 
-## Quick start
 
-```bash
+Passo 2: Criar o Ambiente Virtual (.venv)
+
+No terminal do VS Code (PowerShell), crie o ambiente Python isolado:
+
+python -m venv .venv
+
+
+Passo 3: Ativar o Ambiente Virtual
+
+Ative o ambiente criado:
+
+.\.venv\Scripts\Activate.ps1
+
+
+Nota: Se o PowerShell bloquear a execução do script por conta de políticas de execução, rode o comando abaixo no PowerShell como Administrador:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+Ao ativar, o terminal mostrará (.venv) no início da linha de comando.
+
+Passo 4: Instalar as Dependências
+
+Atualize o pip e instale todas as bibliotecas necessárias a partir do arquivo requirements.txt:
+
+python -m pip install --upgrade pip
 pip install -r requirements.txt
-# a few scripts drive a headless browser:
-playwright install chromium
-
-# then point any script at YOUR lab instance URL:
-python "SQL Injection/01-retrieve-hidden-data.py" https://YOUR-LAB-ID.web-security-academy.net
-```
-
-## Categories
-
-| Category | Labs |
-|----------|-----:|
-| [XXE Injection](<XXE Injection>) | 9 |
-| [WebSockets](<WebSockets>) | 3 |
-| [Web LLM Attacks](<Web LLM Attacks>) | 4 |
-| [Web Cache Poisoning](<Web Cache Poisoning>) | 13 |
-| [Web Cache Deception](<Web Cache Deception>) | 5 |
-| [Server-Side Template Injection](<Server-Side Template Injection>) | 7 |
-| [Server-Side Prototype Pollution](<Server-Side Prototype Pollution>) | 5 |
-| [SSRF](<SSRF>) | 7 |
-| [SQL Injection](<SQL Injection>) | 18 |
-| [Race Conditions](<Race Conditions>) | 6 |
-| [OS Command Injection](<OS Command Injection>) | 5 |
-| [OAuth](<OAuth>) | 6 |
-| [NoSQL Injection](<NoSQL Injection>) | 4 |
-| [JWT](<JWT>) | 8 |
-| [Insecure Deserialization](<Insecure Deserialization>) | 10 |
-| [Information Disclosure](<Information Disclosure>) | 5 |
-| [HTTP Request Smuggling](<HTTP Request Smuggling>) | 22 |
-| [HTTP Host Header Attacks](<HTTP Host Header Attacks>) | 7 |
-| [GraphQL](<GraphQL>) | 5 |
-| [File Upload](<File Upload>) | 7 |
-| [Essential Skills](<Essential Skills>) | 2 |
-| [Directory Traversal](<Directory Traversal>) | 6 |
-| [DOM-Based Vulnerabilities](<DOM-Based Vulnerabilities>) | 7 |
-| [Cross-Site Scripting (XSS)](<Cross-Site Scripting (XSS)>) | 30 |
-| [Client-Side Prototype Pollution](<Client-Side Prototype Pollution>) | 5 |
-| [Clickjacking](<Clickjacking>) | 5 |
-| [CSRF](<CSRF>) | 12 |
-| [CORS](<CORS>) | 3 |
-| [Business Logic Vulnerabilities](<Business Logic Vulnerabilities>) | 12 |
-| [Authentication](<Authentication>) | 14 |
-| [Access Control](<Access Control>) | 13 |
-| [API Testing](<API Testing>) | 5 |
 
 
-## About
+🚀 2. Guia de Uso da Automação
 
-These solutions are written and maintained by **Michael Dahan**, an active red teamer and **CEO & Founder of [Sec-Llama](https://sec-llama.com)** (offensive security firm) and **[KipuCon](https://kipucon.org)** (cybersecurity conference). Every writeup is written to the standard of a serious research blog — the reasoning, not just the payload.
+O fluxo de trabalho consiste em gerar/atualizar a fila, injetar as URLs ativas da PortSwigger e disparar a execução.
 
-If you're working through these to break into offensive security, Sec-Llama Academy runs a live, hands-on **"zero to junior penetration tester"** program in small cohorts. It starts with a **free live webinar** → **[academy.sec-llama.com](https://academy.sec-llama.com/#webinar)**. More free walkthroughs: **[academy.sec-llama.com/learn](https://academy.sec-llama.com/learn/)**.
+Passo A: Gerar ou Atualizar o labs_queue.csv
 
-## Disclaimer
+O gerador descobre automaticamente todos os scripts .py no seu repositório e cria/atualiza a fila mantendo a estrutura original:
 
-For **education and authorized security testing only.** The scripts target *your own* PortSwigger Web Security Academy lab instances. Do not use these techniques against any system you do not own or are not explicitly authorized to test. Unauthorized access is illegal.
+python .\generate_labs_csv.py
 
-## License
 
-[MIT](LICENSE) © 2026 Michael Dahan / Sec-Llama S.A.C.
+Passo B: Injetar URLs na Fila
+
+Para cadastrar as URLs das instâncias geradas na PortSwigger e marcar os laboratórios como pendente, execute no PowerShell (substituindo pelas suas URLs reais):
+
+python -c "import csv; rows=list(csv.DictReader(open('labs_queue.csv',encoding='utf-8-sig'))); urls=['https://SUA_URL_1.web-security-academy.net/', 'https://SUA_URL_2.web-security-academy.net/']; [r.update({'url': u, 'status': 'pendente'}) for r, u in zip(rows[:len(urls)], urls)]; writer=csv.DictWriter(open('labs_queue.csv','w',newline='',encoding='utf-8-sig'), fieldnames=rows[0].keys()); writer.writeheader(); writer.writerows(rows); print(f'Sucesso! {len(urls)} laboratório(s) atualizados para pendente.')"
+
+
+💡 Nota: Você pode enviar quantas URLs quiser dentro da lista urls=['...', '...']. O script irá atribuí-las sequencialmente aos scripts da fila.
+
+Passo C: Testar a Fila (Modo Simulação)
+
+Valide a fila e verifique se os scripts existem sem disparar os ataques de fato:
+
+python .\run_all.py --dry-run
+
+
+Passo D: Executar a Fila de Laboratórios
+
+Com os laboratórios configurados como pendente, execute o gerenciador para resolver tudo em lote:
+
+python .\run_all.py
+
+
+Opções Adicionais do Executor:
+
+Alterar o Tempo Limite (Timeout por script em segundos):
+
+python .\run_all.py --timeout 180
+
+
+Adicionar Tentativas Extras em caso de erro (0 a 2):
+
+python .\run_all.py --retries 1
+
+
+📌 3. Entendendo os Status no labs_queue.csv
+
+Status
+
+Descrição
+
+aguardando_url
+
+O script foi encontrado localmente, mas a URL da instância da PortSwigger ainda não foi informada.
+
+pendente
+
+A URL foi cadastrada e o laboratório está pronto para ser executado pelo run_all.py.
+
+verificar
+
+O script foi executado. É necessário confirmar manualmente na plataforma da PortSwigger se foi marcado como resolvido (Solved).
+
+erro
+
+Ocorreu uma falha na execução, tempo limite excedido ou a URL fornecida é inválida.
+
+📊 4. Relatórios e Logs
+
+Todas as ações e saídas de terminal do executor são registradas automaticamente na pasta de relatórios:
+
+Arquivo de log detalhado: 04-reports/executor.log

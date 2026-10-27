@@ -1,0 +1,270 @@
+﻿script,laboratorio,url,status
+Access Control/01-unprotected-admin-functionality.py,Lab: Unprotected admin functionality,https://0a4e008f0314eb3481d5b61e0008007e.web-security-academy.net/,verificar
+Access Control/02-unprotected-admin-functionality-unpredictable-url.py,Lab: Unprotected admin functionality with unpredictable URL,https://0af4009003b268d781c95709001c001c.web-security-academy.net/,verificar
+Access Control/03-user-role-controlled-by-request-parameter.py,Lab: User role controlled by request parameter,https://0a1f00c60334d8bd8109f78700ff00a5.web-security-academy.net/,verificar
+Access Control/04-user-role-modified-in-user-profile.py,Lab: User role can be modified in user profile,,aguardando_url
+Access Control/05-user-id-controlled-by-request-parameter.py,Lab: User ID controlled by request parameter,,aguardando_url
+Access Control/06-user-id-controlled-unpredictable-user-ids.py,"Lab: User ID controlled by request parameter, with unpredictable user IDs",,aguardando_url
+Access Control/07-user-id-controlled-data-leakage-in-redirect.py,Lab: User ID controlled by request parameter with data leakage in redirect,,aguardando_url
+Access Control/08-user-id-controlled-password-disclosure.py,Lab: User ID controlled by request parameter with password disclosure,,aguardando_url
+Access Control/09-insecure-direct-object-references.py,Lab: Insecure direct object references,,aguardando_url
+Access Control/10-url-based-access-control-circumvented.py,Lab: URL-based access control can be circumvented,,aguardando_url
+Access Control/11-method-based-access-control-circumvented.py,Lab: Method-based access control can be circumvented,,aguardando_url
+Access Control/12-multi-step-process-no-access-control.py,Lab: Multi-step process with no access control on one step,,aguardando_url
+Access Control/13-referer-based-access-control.py,Lab: Referer-based access control,,aguardando_url
+API Testing/01-exploiting-api-endpoint-using-documentation.py,Exploiting an API endpoint using documentation,,aguardando_url
+API Testing/02-finding-and-exploiting-unused-api-endpoint.py,Finding and exploiting an unused API endpoint,,aguardando_url
+API Testing/03-exploiting-mass-assignment-vulnerability.py,Exploiting a mass assignment vulnerability,,aguardando_url
+API Testing/04-exploiting-sspp-query-string.py,Exploiting server-side parameter pollution in a query string,,aguardando_url
+API Testing/05-exploiting-sspp-rest-url.py,Exploiting server-side parameter pollution in a REST URL,,aguardando_url
+Authentication/01-username-enumeration-via-different-responses.py,Username enumeration via different responses,,aguardando_url
+Authentication/02-username-enumeration-via-subtly-different-responses.py,Username enumeration via subtly different responses,,aguardando_url
+Authentication/03-username-enumeration-via-response-timing.py,Username enumeration via response timing,,aguardando_url
+Authentication/04-broken-brute-force-protection-ip-block.py,"Broken brute-force protection, IP block",,aguardando_url
+Authentication/05-username-enumeration-via-account-lock.py,Username enumeration via account lock,,aguardando_url
+Authentication/06-broken-brute-force-protection-multiple-credentials-per-request.py,"Broken brute-force protection, multiple credentials per request",,aguardando_url
+Authentication/07-2fa-simple-bypass.py,2FA simple bypass,,aguardando_url
+Authentication/08-2fa-broken-logic.py,2FA broken logic,,aguardando_url
+Authentication/09-2fa-bypass-using-a-brute-force-attack.py,2FA bypass using a brute-force attack,,aguardando_url
+Authentication/10-brute-forcing-a-stay-logged-in-cookie.py,Brute-forcing a stay-logged-in cookie,,aguardando_url
+Authentication/11-offline-password-cracking.py,Offline password cracking,,aguardando_url
+Authentication/12-password-reset-broken-logic.py,Password reset broken logic,,aguardando_url
+Authentication/13-password-reset-poisoning-via-middleware.py,Password reset poisoning via middleware,,aguardando_url
+Authentication/14-password-brute-force-via-password-change.py,Password brute-force via password change,,aguardando_url
+Business Logic Vulnerabilities/01-excessive-trust-in-client-side-controls.py,Excessive trust in client-side controls,,aguardando_url
+Business Logic Vulnerabilities/02-high-level-logic-vulnerability.py,High-level logic vulnerability,,aguardando_url
+Business Logic Vulnerabilities/03-inconsistent-security-controls.py,Inconsistent security controls,,aguardando_url
+Business Logic Vulnerabilities/04-flawed-enforcement-of-business-rules.py,Flawed enforcement of business rules,,aguardando_url
+Business Logic Vulnerabilities/05-low-level-logic-flaw.py,Low-level logic flaw,,aguardando_url
+Business Logic Vulnerabilities/06-inconsistent-handling-of-exceptional-input.py,Inconsistent handling of exceptional input,,aguardando_url
+Business Logic Vulnerabilities/07-weak-isolation-on-dual-use-endpoint.py,Weak isolation on dual-use endpoint,,aguardando_url
+Business Logic Vulnerabilities/08-insufficient-workflow-validation.py,Insufficient workflow validation,,aguardando_url
+Business Logic Vulnerabilities/09-authentication-bypass-via-flawed-state-machine.py,Authentication bypass via flawed state machine,,aguardando_url
+Business Logic Vulnerabilities/10-infinite-money-logic-flaw.py,Infinite money logic flaw,,aguardando_url
+Business Logic Vulnerabilities/11-authentication-bypass-via-encryption-oracle.py,Authentication bypass via encryption oracle,,aguardando_url
+Business Logic Vulnerabilities/12-bypassing-access-controls-via-email-parsing.py,Bypassing access controls using email address parsing discrepancies,,aguardando_url
+Clickjacking/01-basic-clickjacking-with-csrf-token-protection.py,Basic clickjacking with CSRF token protection,,aguardando_url
+Clickjacking/02-clickjacking-with-form-input-data-prefilled-from-a-url-parameter.py,Clickjacking with form input data prefilled from a URL parameter,,aguardando_url
+Clickjacking/03-clickjacking-with-a-frame-buster-script.py,Clickjacking with a frame buster script,,aguardando_url
+Clickjacking/04-exploiting-clickjacking-vulnerability-to-trigger-dom-based-xss.py,Exploiting clickjacking vulnerability to trigger DOM-based XSS,,aguardando_url
+Clickjacking/05-multistep-clickjacking.py,Multistep clickjacking,,aguardando_url
+Client-Side Prototype Pollution/01-browser-apis.py,Client-side prototype pollution via browser APIs,,aguardando_url
+Client-Side Prototype Pollution/02-dom-xss-via-client-side-prototype-pollution.py,DOM XSS via client-side prototype pollution,,aguardando_url
+Client-Side Prototype Pollution/03-dom-xss-via-an-alternative-prototype-pollution-vector.py,DOM XSS via an alternative prototype pollution vector,,aguardando_url
+Client-Side Prototype Pollution/04-client-side-prototype-pollution-via-flawed-sanitization.py,Client-side prototype pollution via flawed sanitization,,aguardando_url
+Client-Side Prototype Pollution/05-client-side-prototype-pollution-in-third-party-libraries.py,Client-side prototype pollution in third-party libraries,,aguardando_url
+CORS/01-basic-origin-reflection.py,CORS vulnerability with basic origin reflection,,aguardando_url
+CORS/02-trusted-null-origin.py,CORS vulnerability with trusted null origin,,aguardando_url
+CORS/03-trusted-insecure-protocols.py,CORS vulnerability with trusted insecure protocols,,aguardando_url
+Cross-Site Scripting (XSS)/01-reflected-xss-html-context-nothing-encoded.py,Reflected XSS into HTML context with nothing encoded,,aguardando_url
+Cross-Site Scripting (XSS)/02-stored-xss-html-context-nothing-encoded.py,Stored XSS into HTML context with nothing encoded,,aguardando_url
+Cross-Site Scripting (XSS)/03-dom-xss-document-write-sink.py,DOM XSS in document.write sink using source location.search,,aguardando_url
+Cross-Site Scripting (XSS)/04-dom-xss-innerhtml-sink.py,DOM XSS in innerHTML sink using source location.search,,aguardando_url
+Cross-Site Scripting (XSS)/05-dom-xss-jquery-href-attribute-sink.py,DOM XSS in jQuery anchor href attribute sink using location.search source,,aguardando_url
+Cross-Site Scripting (XSS)/06-dom-xss-jquery-selector-hashchange-event.py,DOM XSS in jQuery selector sink using a hashchange event,,aguardando_url
+Cross-Site Scripting (XSS)/07-reflected-xss-attribute-angle-brackets-encoded.py,Reflected XSS into attribute with angle brackets HTML-encoded,,aguardando_url
+Cross-Site Scripting (XSS)/08-stored-xss-href-double-quotes-encoded.py,Stored XSS into anchor href attribute with double quotes HTML-encoded,,aguardando_url
+Cross-Site Scripting (XSS)/09-reflected-xss-js-string-angle-brackets-encoded.py,Reflected XSS into a JavaScript string with angle brackets HTML encoded,,aguardando_url
+Cross-Site Scripting (XSS)/10-dom-xss-document-write-sink-inside-select-element.py,DOM XSS in document.write sink using source location.search inside a select element,,aguardando_url
+Cross-Site Scripting (XSS)/11-dom-xss-angularjs-expression.py,DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded,,aguardando_url
+Cross-Site Scripting (XSS)/12-reflected-dom-xss.py,Reflected DOM XSS,,aguardando_url
+Cross-Site Scripting (XSS)/13-stored-dom-xss.py,Stored DOM XSS,,aguardando_url
+Cross-Site Scripting (XSS)/14-reflected-xss-most-tags-and-attributes-blocked.py,Reflected XSS into HTML context with most tags and attributes blocked,,aguardando_url
+Cross-Site Scripting (XSS)/15-reflected-xss-all-standard-tags-blocked.py,Reflected XSS into HTML context with all tags blocked except custom ones,,aguardando_url
+Cross-Site Scripting (XSS)/16-reflected-xss-some-svg-markup-allowed.py,Reflected XSS with some SVG markup allowed,,aguardando_url
+Cross-Site Scripting (XSS)/17-reflected-xss-canonical-link-tag.py,Reflected XSS in canonical link tag,,aguardando_url
+Cross-Site Scripting (XSS)/18-reflected-xss-js-string-single-quote-backslash-escaped.py,Reflected XSS into a JavaScript string with single quote and backslash escaped,,aguardando_url
+Cross-Site Scripting (XSS)/19-reflected-xss-js-string-angle-brackets-quotes-encoded-single-escaped.py,Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped,,aguardando_url
+Cross-Site Scripting (XSS)/20-stored-xss-onclick-event-encoded-escaped.py,Stored XSS into onclick event with angle brackets and double quotes HTML-encoded and single quotes and backslash escaped,,aguardando_url
+Cross-Site Scripting (XSS)/21-reflected-xss-template-literal.py,"Reflected XSS into a template literal with angle brackets, single, double quotes, backslash and backticks Unicode-escaped",,aguardando_url
+Cross-Site Scripting (XSS)/22-exploiting-xss-steal-cookies.py,Exploiting cross-site scripting to steal cookies,,aguardando_url
+Cross-Site Scripting (XSS)/23-exploiting-xss-capture-passwords.py,Exploiting cross-site scripting to capture passwords,,aguardando_url
+Cross-Site Scripting (XSS)/24-exploiting-xss-bypass-csrf.py,Exploiting XSS to bypass CSRF defenses,,aguardando_url
+Cross-Site Scripting (XSS)/25-angularjs-sandbox-escape-without-strings.py,Reflected XSS with AngularJS sandbox escape without strings,,aguardando_url
+Cross-Site Scripting (XSS)/26-angularjs-sandbox-escape-and-csp.py,Reflected XSS with AngularJS sandbox escape and CSP,,aguardando_url
+Cross-Site Scripting (XSS)/27-reflected-xss-event-handlers-href-blocked.py,Reflected XSS with event handlers and href attributes blocked,,aguardando_url
+Cross-Site Scripting (XSS)/28-reflected-xss-javascript-url-chars-blocked.py,Reflected XSS in a JavaScript URL with some characters blocked,,aguardando_url
+Cross-Site Scripting (XSS)/29-reflected-xss-strict-csp-dangling-markup.py,"Reflected XSS protected by very strict CSP, with dangling markup attack",,aguardando_url
+Cross-Site Scripting (XSS)/30-reflected-xss-csp-bypass.py,"Reflected XSS protected by CSP, with CSP bypass",,aguardando_url
+CSRF/01-no-defenses.py,CSRF vulnerability with no defenses,,aguardando_url
+CSRF/02-token-validation-request-method.py,CSRF where token validation depends on request method,,aguardando_url
+CSRF/03-token-validation-token-present.py,CSRF where token validation depends on token being present,,aguardando_url
+CSRF/04-token-not-tied-to-session.py,CSRF where token is not tied to user session,,aguardando_url
+CSRF/05-token-tied-to-non-session-cookie.py,CSRF where token is tied to non-session cookie,,aguardando_url
+CSRF/06-token-duplicated-in-cookie.py,CSRF where token is duplicated in cookie,,aguardando_url
+CSRF/07-samesite-lax-method-override.py,SameSite Lax bypass via method override,,aguardando_url
+CSRF/08-samesite-strict-client-side-redirect.py,SameSite Strict bypass via client-side redirect,,aguardando_url
+CSRF/09-samesite-strict-sibling-domain.py,SameSite Strict bypass via sibling domain,,aguardando_url
+CSRF/10-samesite-lax-cookie-refresh.py,SameSite Lax bypass via cookie refresh,,aguardando_url
+CSRF/11-referer-validation-header-present.py,CSRF where Referer validation depends on header being present,,aguardando_url
+CSRF/12-referer-validation-broken.py,CSRF with broken Referer validation,,aguardando_url
+Directory Traversal/01-simple-case.py,"File path traversal, simple case",,aguardando_url
+Directory Traversal/02-absolute-path-bypass.py,"File path traversal, traversal sequences blocked with absolute path bypass",,aguardando_url
+Directory Traversal/03-sequences-stripped-non-recursively.py,"File path traversal, traversal sequences stripped non-recursively",,aguardando_url
+Directory Traversal/04-superfluous-url-decode.py,"File path traversal, traversal sequences stripped with superfluous URL-decode",,aguardando_url
+Directory Traversal/05-validation-of-start-of-path.py,"File path traversal, validation of start of path",,aguardando_url
+Directory Traversal/06-null-byte-bypass.py,"File path traversal, validation of file extension with null byte bypass",,aguardando_url
+DOM-Based Vulnerabilities/01-dom-xss-using-web-messages.py,DOM XSS using web messages,,aguardando_url
+DOM-Based Vulnerabilities/02-dom-xss-web-messages-javascript-url.py,DOM XSS using web messages and a JavaScript URL,,aguardando_url
+DOM-Based Vulnerabilities/03-dom-xss-web-messages-json-parse.py,DOM XSS using web messages and JSON.parse,,aguardando_url
+DOM-Based Vulnerabilities/04-dom-based-open-redirection.py,DOM-based open redirection,,aguardando_url
+DOM-Based Vulnerabilities/05-dom-based-cookie-manipulation.py,DOM-based cookie manipulation,,aguardando_url
+DOM-Based Vulnerabilities/06-dom-clobbering-xss.py,Exploiting DOM clobbering to enable XSS,,aguardando_url
+DOM-Based Vulnerabilities/07-dom-clobbering-attribute-filter-bypass.py,Clobbering DOM attributes to bypass HTML filters,,aguardando_url
+Essential Skills/01-discovering-vulnerabilities-quickly-with-targeted-scanning.py,Discovering vulnerabilities quickly with targeted scanning,,aguardando_url
+Essential Skills/02-scanning-non-standard-data-structures.py,Scanning non-standard data structures,,aguardando_url
+File Upload/01-remote-code-execution-via-web-shell-upload.py,Remote code execution via web shell upload,,aguardando_url
+File Upload/02-web-shell-upload-via-content-type-restriction-bypass.py,Web shell upload via Content-Type restriction bypass,,aguardando_url
+File Upload/03-web-shell-upload-via-path-traversal.py,Web shell upload via path traversal,,aguardando_url
+File Upload/04-web-shell-upload-via-extension-blacklist-bypass.py,Web shell upload via extension blacklist bypass,,aguardando_url
+File Upload/05-web-shell-upload-via-obfuscated-file-extension.py,Web shell upload via obfuscated file extension,,aguardando_url
+File Upload/06-remote-code-execution-via-polyglot-web-shell-upload.py,Remote code execution via polyglot web shell upload,,aguardando_url
+File Upload/07-web-shell-upload-via-race-condition.py,Web shell upload via race condition,,aguardando_url
+GraphQL/01-accessing-private-graphql-posts.py,Lab: Accessing private GraphQL posts,,aguardando_url
+GraphQL/02-accidental-exposure-of-private-graphql-fields.py,Lab: Accidental exposure of private GraphQL fields,,aguardando_url
+GraphQL/03-finding-a-hidden-graphql-endpoint.py,Lab: Finding a hidden GraphQL endpoint,,aguardando_url
+GraphQL/04-bypassing-graphql-brute-force-protections.py,Lab: Bypassing GraphQL brute force protections,,aguardando_url
+GraphQL/05-performing-csrf-exploits-over-graphql.py,Lab: Performing CSRF exploits over GraphQL,,aguardando_url
+HTTP Host Header Attacks/01-basic-password-reset-poisoning.py,Basic password reset poisoning,,aguardando_url
+HTTP Host Header Attacks/02-host-header-authentication-bypass.py,Host header authentication bypass,,aguardando_url
+HTTP Host Header Attacks/03-web-cache-poisoning-via-ambiguous-requests.py,Web cache poisoning via ambiguous requests,,aguardando_url
+HTTP Host Header Attacks/04-routing-based-ssrf.py,Routing-based SSRF,,aguardando_url
+HTTP Host Header Attacks/05-ssrf-via-flawed-request-parsing.py,SSRF via flawed request parsing,,aguardando_url
+HTTP Host Header Attacks/06-host-validation-bypass-via-connection-state-attack.py,Host validation bypass via connection state attack,,aguardando_url
+HTTP Host Header Attacks/07-password-reset-poisoning-via-dangling-markup.py,Password reset poisoning via dangling markup,,aguardando_url
+HTTP Request Smuggling/01-confirming-cl-te-differential-responses.py,"HTTP request smuggling, confirming a CL.TE vulnerability via differential responses",,aguardando_url
+HTTP Request Smuggling/02-confirming-te-cl-differential-responses.py,"HTTP request smuggling, confirming a TE.CL vulnerability via differential responses",,aguardando_url
+HTTP Request Smuggling/03-bypass-front-end-controls-cl-te.py,"Exploiting HTTP request smuggling to bypass front-end security controls, CL.TE vulnerability",,aguardando_url
+HTTP Request Smuggling/04-bypass-front-end-controls-te-cl.py,"Exploiting HTTP request smuggling to bypass front-end security controls, TE.CL vulnerability",,aguardando_url
+HTTP Request Smuggling/05-reveal-front-end-request-rewriting.py,Exploiting HTTP request smuggling to reveal front-end request rewriting,,aguardando_url
+HTTP Request Smuggling/06-capture-other-users-requests.py,Exploiting HTTP request smuggling to capture other users' requests,,aguardando_url
+HTTP Request Smuggling/07-deliver-reflected-xss.py,Exploiting HTTP request smuggling to deliver reflected XSS,,aguardando_url
+HTTP Request Smuggling/08-response-queue-poisoning-h2-te.py,Response queue poisoning via H2.TE request smuggling,,aguardando_url
+HTTP Request Smuggling/09-h2-cl-request-smuggling.py,H2.CL request smuggling,,aguardando_url
+HTTP Request Smuggling/10-h2-request-smuggling-crlf-injection.py,HTTP/2 request smuggling via CRLF injection,,aguardando_url
+HTTP Request Smuggling/11-h2-request-splitting-crlf-injection.py,HTTP/2 request splitting via CRLF injection,,aguardando_url
+HTTP Request Smuggling/13-cl-0-request-smuggling.py,CL.0 request smuggling,,aguardando_url
+HTTP Request Smuggling/14-basic-cl-te.py,"HTTP request smuggling, basic CL.TE vulnerability",,aguardando_url
+HTTP Request Smuggling/15-basic-te-cl.py,"HTTP request smuggling, basic TE.CL vulnerability",,aguardando_url
+HTTP Request Smuggling/16-obfuscating-te-header.py,"HTTP request smuggling, obfuscating the TE header",,aguardando_url
+HTTP Request Smuggling/17-web-cache-poisoning-via-smuggling.py,Exploiting HTTP request smuggling to perform web cache poisoning,,aguardando_url
+HTTP Request Smuggling/18-web-cache-deception-via-smuggling.py,Exploiting HTTP request smuggling to perform web cache deception,,aguardando_url
+HTTP Request Smuggling/19-h2-tunnelling-bypass-access-controls.py,Bypassing access controls via HTTP/2 request tunnelling,,aguardando_url
+HTTP Request Smuggling/20-h2-tunnelling-web-cache-poisoning.py,Web cache poisoning via HTTP/2 request tunnelling,,aguardando_url
+HTTP Request Smuggling/21-client-side-desync.py,Client-side desync,,aguardando_url
+HTTP Request Smuggling/22-server-side-pause-based-desync.py,Server-side pause-based request smuggling,,aguardando_url
+Information Disclosure/01-error-messages.py,Information disclosure in error messages,,aguardando_url
+Information Disclosure/02-debug-page.py,Information disclosure on debug page,,aguardando_url
+Information Disclosure/03-backup-files.py,Source code disclosure via backup files,,aguardando_url
+Information Disclosure/04-authentication-bypass.py,Authentication bypass via information disclosure,,aguardando_url
+Information Disclosure/05-version-control-history.py,Information disclosure in version control history,,aguardando_url
+Insecure Deserialization/01-modifying-serialized-objects.py,Lab: Modifying serialized objects,,aguardando_url
+Insecure Deserialization/02-modifying-serialized-data-types.py,Lab: Modifying serialized data types,,aguardando_url
+Insecure Deserialization/03-using-application-functionality.py,Lab: Using application functionality to exploit insecure deserialization,,aguardando_url
+Insecure Deserialization/04-arbitrary-object-injection-in-php.py,Lab: Arbitrary object injection in PHP,,aguardando_url
+Insecure Deserialization/05-exploiting-java-deserialization-with-apache-commons.py,Lab: Exploiting Java deserialization with Apache Commons,,aguardando_url
+Insecure Deserialization/06-exploiting-php-deserialization-with-a-pre-built-gadget-chain.py,Lab: Exploiting PHP deserialization with a pre-built gadget chain,,aguardando_url
+Insecure Deserialization/07-exploiting-ruby-deserialization-using-a-documented-gadget-chain.py,Lab: Exploiting Ruby deserialization using a documented gadget chain,,aguardando_url
+Insecure Deserialization/08-developing-a-custom-gadget-chain-for-java-deserialization.py,Lab: Developing a custom gadget chain for Java deserialization,,aguardando_url
+Insecure Deserialization/09-developing-a-custom-gadget-chain-for-php-deserialization.py,Lab: Developing a custom gadget chain for PHP deserialization,,aguardando_url
+Insecure Deserialization/10-using-phar-deserialization-to-deploy-a-custom-gadget-chain.py,Lab: Using PHAR deserialization to deploy a custom gadget chain,,aguardando_url
+JWT/01-unverified-signature.py,JWT authentication bypass via unverified signature,,aguardando_url
+JWT/02-flawed-signature-verification.py,JWT authentication bypass via flawed signature verification,,aguardando_url
+JWT/03-weak-signing-key.py,JWT authentication bypass via weak signing key,,aguardando_url
+JWT/04-jwk-header-injection.py,JWT authentication bypass via jwk header injection,,aguardando_url
+JWT/05-jku-header-injection.py,JWT authentication bypass via jku header injection,,aguardando_url
+JWT/06-kid-header-path-traversal.py,JWT authentication bypass via kid header path traversal,,aguardando_url
+JWT/07-algorithm-confusion.py,JWT authentication bypass via algorithm confusion,,aguardando_url
+JWT/08-algorithm-confusion-no-exposed-key.py,JWT authentication bypass via algorithm confusion with no exposed key,,aguardando_url
+NoSQL Injection/01-detecting-nosql-injection.py,Detecting NoSQL injection,,aguardando_url
+NoSQL Injection/02-nosql-operator-injection-bypass-authentication.py,Exploiting NoSQL operator injection to bypass authentication,,aguardando_url
+NoSQL Injection/03-nosql-injection-extract-data.py,Exploiting NoSQL injection to extract data,,aguardando_url
+NoSQL Injection/04-nosql-operator-injection-extract-unknown-fields.py,Exploiting NoSQL operator injection to extract unknown fields,,aguardando_url
+OAuth/01-authentication-bypass-via-oauth-implicit-flow.py,Authentication bypass via OAuth implicit flow,,aguardando_url
+OAuth/02-forced-oauth-profile-linking.py,Forced OAuth profile linking,,aguardando_url
+OAuth/03-oauth-account-hijacking-via-redirect-uri.py,OAuth account hijacking via redirect_uri,,aguardando_url
+OAuth/04-stealing-oauth-access-tokens-via-an-open-redirect.py,Stealing OAuth access tokens via an open redirect,,aguardando_url
+OAuth/05-stealing-oauth-access-tokens-via-a-proxy-page.py,Stealing OAuth access tokens via a proxy page,,aguardando_url
+OAuth/06-ssrf-via-openid-dynamic-client-registration.py,SSRF via OpenID dynamic client registration,,aguardando_url
+OS Command Injection/01-simple-case.py,"OS command injection, simple case",,aguardando_url
+OS Command Injection/02-blind-time-delays.py,Blind OS command injection with time delays,,aguardando_url
+OS Command Injection/03-blind-output-redirection.py,Blind OS command injection with output redirection,,aguardando_url
+OS Command Injection/04-blind-out-of-band-interaction.py,Blind OS command injection with out-of-band interaction,,aguardando_url
+OS Command Injection/05-blind-out-of-band-data-exfiltration.py,Blind OS command injection with out-of-band data exfiltration,,aguardando_url
+Race Conditions/01-limit-overrun-race-conditions.py,Limit overrun race conditions,,aguardando_url
+Race Conditions/02-bypassing-rate-limits-via-race-conditions.py,Bypassing rate limits via race conditions,,aguardando_url
+Race Conditions/03-multi-endpoint-race-conditions.py,Multi-endpoint race conditions,,aguardando_url
+Race Conditions/04-single-endpoint-race-conditions.py,Single-endpoint race conditions,,aguardando_url
+Race Conditions/05-exploiting-time-sensitive-vulnerabilities.py,Exploiting time-sensitive vulnerabilities,,aguardando_url
+Race Conditions/06-partial-construction-race-conditions.py,Partial construction race conditions,,aguardando_url
+Server-Side Prototype Pollution/01-privilege-escalation.py,Privilege escalation via server-side prototype pollution,,aguardando_url
+Server-Side Prototype Pollution/02-detecting-without-reflection.py,Detecting server-side prototype pollution without polluted property reflection,,aguardando_url
+Server-Side Prototype Pollution/03-bypassing-flawed-input-filters.py,Bypassing flawed input filters for server-side prototype pollution,,aguardando_url
+Server-Side Prototype Pollution/04-remote-code-execution.py,Remote code execution via server-side prototype pollution,,aguardando_url
+Server-Side Prototype Pollution/05-exfiltrating-sensitive-data.py,Exfiltrating sensitive data via server-side prototype pollution,,aguardando_url
+Server-Side Template Injection/01-basic-server-side-template-injection.py,Basic server-side template injection,,aguardando_url
+Server-Side Template Injection/02-basic-server-side-template-injection-code-context.py,Basic server-side template injection (code context),,aguardando_url
+Server-Side Template Injection/03-server-side-template-injection-using-documentation.py,Server-side template injection using documentation,,aguardando_url
+Server-Side Template Injection/04-ssti-in-an-unknown-language-with-a-documented-exploit.py,Server-side template injection in an unknown language with a documented exploit,,aguardando_url
+Server-Side Template Injection/05-ssti-with-information-disclosure-via-user-supplied-objects.py,Server-side template injection with information disclosure via user-supplied objects,,aguardando_url
+Server-Side Template Injection/06-ssti-in-a-sandboxed-environment.py,Server-side template injection in a sandboxed environment,,aguardando_url
+Server-Side Template Injection/07-ssti-with-a-custom-exploit.py,Server-side template injection with a custom exploit,,aguardando_url
+SQL Injection/01-retrieve-hidden-data.py,SQL injection vulnerability in WHERE clause allowing retrieval of hidden data,,aguardando_url
+SQL Injection/02-login-bypass.py,SQL injection vulnerability allowing login bypass,,aguardando_url
+SQL Injection/03-db-version-oracle.py,"SQL injection attack, querying the database type and version on Oracle",,aguardando_url
+SQL Injection/04-db-version-mysql-microsoft.py,"SQL injection attack, querying the database type and version on MySQL and Microsoft",,aguardando_url
+SQL Injection/05-list-database-contents-non-oracle.py,"SQL injection attack, listing the database contents on non-Oracle databases",,aguardando_url
+SQL Injection/06-list-database-contents-oracle.py,"SQL injection attack, listing the database contents on Oracle",,aguardando_url
+SQL Injection/07-union-determine-column-count.py,"SQL injection UNION attack, determining the number of columns returned by the query",,aguardando_url
+SQL Injection/08-union-find-column-containing-text.py,"SQL injection UNION attack, finding a column containing text",,aguardando_url
+SQL Injection/09-union-retrieve-data-from-other-tables.py,"SQL injection UNION attack, retrieving data from other tables",,aguardando_url
+SQL Injection/10-union-multiple-values-single-column.py,"SQL injection UNION attack, retrieving multiple values in a single column",,aguardando_url
+SQL Injection/11-blind-conditional-responses.py,Blind SQL injection with conditional responses,,aguardando_url
+SQL Injection/12-blind-conditional-errors.py,Blind SQL injection with conditional errors,,aguardando_url
+SQL Injection/13-visible-error-based.py,Visible error-based SQL injection,,aguardando_url
+SQL Injection/14-blind-time-delays.py,Blind SQL injection with time delays,,aguardando_url
+SQL Injection/15-blind-time-delays-info-retrieval.py,Blind SQL injection with time delays and information retrieval,,aguardando_url
+SQL Injection/16-blind-out-of-band-interaction.py,Blind SQL injection with out-of-band interaction,,aguardando_url
+SQL Injection/17-blind-out-of-band-data-exfiltration.py,Blind SQL injection with out-of-band data exfiltration,,aguardando_url
+SQL Injection/18-filter-bypass-via-xml-encoding.py,SQL injection with filter bypass via XML encoding,,aguardando_url
+SSRF/01-basic-ssrf-against-local-server.py,Basic SSRF against the local server,,aguardando_url
+SSRF/02-basic-ssrf-against-backend-system.py,Basic SSRF against another back-end system,,aguardando_url
+SSRF/03-ssrf-blacklist-based-input-filter.py,SSRF with blacklist-based input filter,,aguardando_url
+SSRF/04-ssrf-filter-bypass-open-redirection.py,SSRF with filter bypass via open redirection vulnerability,,aguardando_url
+SSRF/05-blind-ssrf-out-of-band-detection.py,Blind SSRF with out-of-band detection,,aguardando_url
+SSRF/06-ssrf-whitelist-based-input-filter.py,SSRF with whitelist-based input filter,,aguardando_url
+SSRF/07-blind-ssrf-shellshock-exploitation.py,Blind SSRF with Shellshock exploitation,,aguardando_url
+Web Cache Deception/01-exploiting-path-mapping.py,Exploiting path mapping for web cache deception,,aguardando_url
+Web Cache Deception/02-exploiting-path-delimiters.py,Exploiting path delimiters for web cache deception,,aguardando_url
+Web Cache Deception/03-exploiting-origin-server-normalization.py,Exploiting origin server normalization for web cache deception,,aguardando_url
+Web Cache Deception/04-exploiting-cache-server-normalization.py,Exploiting cache server normalization for web cache deception,,aguardando_url
+Web Cache Deception/05-exploiting-exact-match-cache-rules.py,Exploiting exact-match cache rules for web cache deception,,aguardando_url
+Web Cache Poisoning/01-unkeyed-header.py,Web cache poisoning with an unkeyed header,,aguardando_url
+Web Cache Poisoning/02-unkeyed-cookie.py,Web cache poisoning with an unkeyed cookie,,aguardando_url
+Web Cache Poisoning/03-multiple-headers.py,Web cache poisoning with multiple headers,,aguardando_url
+Web Cache Poisoning/04-targeted-unknown-header.py,Targeted web cache poisoning using an unknown header,,aguardando_url
+Web Cache Poisoning/05-unkeyed-query-string.py,Web cache poisoning via an unkeyed query string,,aguardando_url
+Web Cache Poisoning/06-unkeyed-query-parameter.py,Web cache poisoning via an unkeyed query parameter,,aguardando_url
+Web Cache Poisoning/07-parameter-cloaking.py,Parameter cloaking,,aguardando_url
+Web Cache Poisoning/08-fat-get-request.py,Web cache poisoning via a fat GET request,,aguardando_url
+Web Cache Poisoning/09-url-normalization.py,URL normalization,,aguardando_url
+Web Cache Poisoning/10-dom-xss-strict-cacheability.py,Web cache poisoning to exploit a DOM vulnerability via a cache with strict cacheability criteria,,aguardando_url
+Web Cache Poisoning/11-combining-vulnerabilities.py,Combining web cache poisoning vulnerabilities,,aguardando_url
+Web Cache Poisoning/12-cache-key-injection.py,Cache key injection,,aguardando_url
+Web Cache Poisoning/13-internal-cache-poisoning.py,Internal cache poisoning,,aguardando_url
+Web LLM Attacks/01-exploiting-llm-apis-with-excessive-agency.py,Exploiting LLM APIs with excessive agency,,aguardando_url
+Web LLM Attacks/02-exploiting-vulnerabilities-in-llm-apis.py,Exploiting vulnerabilities in LLM APIs,,aguardando_url
+Web LLM Attacks/03-indirect-prompt-injection.py,Indirect prompt injection,,aguardando_url
+Web LLM Attacks/04-exploiting-insecure-output-handling-in-llms.py,Exploiting insecure output handling in LLMs,,aguardando_url
+WebSockets/01-manipulating-websocket-messages.py,Manipulating WebSocket messages to exploit vulnerabilities,,aguardando_url
+WebSockets/02-manipulating-websocket-handshake.py,Manipulating the WebSocket handshake to exploit vulnerabilities,,aguardando_url
+WebSockets/03-cross-site-websocket-hijacking.py,Cross-site WebSocket hijacking,,aguardando_url
+XXE Injection/01-exploiting-xxe-to-retrieve-files.py,Exploiting XXE using external entities to retrieve files,,aguardando_url
+XXE Injection/02-exploiting-xxe-to-perform-ssrf.py,Exploiting XXE to perform SSRF attacks,,aguardando_url
+XXE Injection/03-blind-xxe-with-out-of-band-interaction.py,Blind XXE with out-of-band interaction,,aguardando_url
+XXE Injection/04-blind-xxe-with-out-of-band-interaction-using-parameter-entities.py,Blind XXE with out-of-band interaction via XML parameter entities,,aguardando_url
+XXE Injection/05-exploiting-blind-xxe-to-exfiltrate-data-using-a-malicious-external-dtd.py,Exploiting blind XXE to exfiltrate data using a malicious external DTD,,aguardando_url
+XXE Injection/06-exploiting-blind-xxe-to-retrieve-data-via-error-messages.py,Exploiting blind XXE to retrieve data via error messages,,aguardando_url
+XXE Injection/07-exploiting-xinclude-to-retrieve-files.py,Exploiting XInclude to retrieve files,,aguardando_url
+XXE Injection/08-exploiting-xxe-via-image-file-upload.py,Exploiting XXE via image file upload,,aguardando_url
+XXE Injection/09-exploiting-xxe-to-retrieve-data-by-repurposing-a-local-dtd.py,Exploiting XXE to retrieve data by repurposing a local DTD,,aguardando_url
